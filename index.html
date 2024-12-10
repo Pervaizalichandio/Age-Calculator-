@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/7a3759d21ac88b1bf64ee5e53ce61d74_icon.png" type="image/x-icon">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="Hero-section container">
+            <div class="heading">
+                <h1>Age Calculator </h1>
+            </div>
+            <div class="input">
+                <input type="date" id="dob">
+                <button onclick="calculateAge()">Calculate</button>
+            </div>
+            <div class="output">
+                <div class="output-box">
+                    <p id="years">--</p>
+                    <p>Years</p>
+                </div>
+                <div class="output-box">
+                    <p id="months">--</p>
+                    <p>Months</p>
+                </div>
+                <div class="output-box">
+                    <p id="days">--</p>
+                    <p>Days</p>
+                </div>
+            </div>
+            <button id="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+        </div>
+    </div>
+</body>
+</html>
